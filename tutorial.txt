@@ -1,0 +1,7 @@
+1. Untuk android download dulu aplikasi termux. untuk pengguna linux langsung aja di terminal
+2. Pastikan sudah install curl, bagi pengguna termux silahkan buka termux lalu ketikan: apt update -y && apt upgrade -y && apt install curl -y && apt install grep -y  lalu tutup termux
+3. Buka termux dan ketikan: curl -O "https://raw.githubusercontent.com/agusgans/Liveproxygrabber/master/proxy.sh" && curl -O "https://raw.githubusercontent.com/agusgans/btcpool.io-bot/master/btcpool.sh"
+
+4. jika sudah ambil dulu proxy listnya agar ip referral berbeda dengan cara mengetikan : bash proxy.sh di termux, tunggu hingga selesai
+5. jika sudah selesai selanjutnya ketikan : bash btcpool.sh lalu masukan ReffiD kalian(hanya kode reff) untuk menjalankan bot referralnya
+6. Tunggu selesai dan cek referral kalian
