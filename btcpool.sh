@@ -12,7 +12,7 @@ signup=$(curl -s -X POST -d "wallet_address=$address&pin=$pin&action=post&refid=
             printf " [Status: Success]\n"
          else
 printf "[Address: $address] [Proxy: $proxys]"
-            printf "[Status: gagal]\n"
+            printf " [Status: gagal]\n"
             fi
 }
 for proxys in $(cat proxylist.txt)
